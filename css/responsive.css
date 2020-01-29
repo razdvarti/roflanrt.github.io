@@ -1,0 +1,280 @@
+/*
+Copyright (c) 2017
+------------------------------------------------------------------
+[Master Stylesheet]
+
+Template Name: EventWings Responsive HTML Template
+Version: 1.0.0
+*/
+
+/***********************************************************************************
+ Responsive Css Start
+***********************************************************************************/
+@media (max-width: 1200px) {
+
+.aud_event_date_counter .aud_counter > span {
+    margin-right: 5px;
+    width: 30px;
+}	
+.aud_event_date_counter .aud_counter > span p {
+    font-size: 12px;
+}
+.aud_event_date_counter .aud_counter > span p:first-child {
+    font-size: 12px;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.aud_mainslider_box h1 {
+    font-size: 45px;
+}
+.aud_uc_img{
+    text-align:center;
+}
+.aud_uc_img img{
+   border-radius:0;
+   display:inline-block;
+}
+.aud_uc_content{
+    padding: 20px 10px 0px 10px;
+    min-height: 280px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.aud_fullwidth_inner{
+    text-align: left;
+}
+.aud_mainslider_box h1 {
+    font-size: 50px;
+}
+.aud_orange_overlay{
+    top: auto;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+}
+.aud_event_inner {
+    margin: 30px 0px;
+}
+.aud_contact_info {
+    margin-top: 30px;
+}
+.aud_menu ul.nav li {
+    padding: 0px 0px 0px 10px;
+}
+.aud_menu ul.nav a {
+    font-size: 16px;
+}
+.aud_menu {
+    margin-top: 8px;
+}
+.aud_mainslider {
+    background-position: 50%;
+}
+.aud_uc_img{
+    text-align: center;
+}
+.aud_uc_img img {
+    border-radius: 0;
+    display: inline-block;
+}
+.aud_uc_content{
+    padding: 20px 20px 0px 20px;
+    min-height: auto;
+}
+.aud_registration_form{
+   margin-bottom:30px;
+}
+}
+
+@media (max-width: 767px) {
+
+.aud_mainslider_box h1 {
+    font-size: 38px;
+}
+.aud_mainslider_box h3 {
+    font-size: 22px;
+}
+.aud_mainslider_box form {
+    width: 400px;
+}
+.aud_fullwidth_inner {
+    padding: 50px 0px;
+    text-align:left;
+}
+.aud_event_inner {
+    margin: 30px 0px;
+}
+.event_details {
+    width: 100%;
+    padding: 20px;
+    border-radius: 0;
+}
+.schedule_date {
+    width: 100%;
+    border-radius: 0;
+}
+.schedule_date strong {
+    font-size: 40px;
+    line-height: 40px;
+}
+.event_details h3 {
+    font-size: 25px;
+}
+.event_sponsord {
+    font-size: 16px;
+    line-height: 25px;
+}
+.aud_button {
+    bottom: 5px;
+    right: 0px;
+}
+.aud_button .aud_link {
+    padding: 10px;
+    border-radius: 0px;
+}
+.aud_contact_info {
+    margin-top: 30px;
+}
+.aud_success_stories_img {
+    width: 100%;
+}
+.aud_success_stories_info {
+    width: 100%;
+    padding-left: 70px;
+    margin-top: 20px;
+}
+.aud_success_stories_img img {
+    width: auto;
+}
+#success_slider .owl-nav {
+    bottom: -50px;
+    left: 50%;
+    margin-left: -60px;
+}
+.aud_mainheading h1 {
+    font-size: 32px;
+}
+.navbar-toggle {
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+	padding: 6px 8px;
+}
+.aud_menu {
+    float: left;
+    width: 100%;
+    margin: 0px;
+}
+.aud_menu ul.nav {
+    width: 100%;
+}
+.aud_menu ul.nav li {
+    padding: 5px 0px;
+}
+.aud_menu ul.nav a:after {
+    left: 16px;
+}
+.navbar-nav > li > a {
+    line-height: inherit;
+}
+.navbar-toggle .icon-bar {
+    width: 16px;
+    background-color: #f26519;
+}
+.aud_orange_overlay{
+    top: auto;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+}
+.aud_uc_img{
+    text-align: center;
+}
+.aud_uc_img img {
+    border-radius: 0;
+    display: inline-block;
+}
+.aud_uc_content{
+    padding: 20px;
+    min-height: auto;
+}
+.aud_event_schedule ul li{
+    padding: 0px;
+    margin-bottom: 30px;
+}
+.aud_slidercontent_inner{
+    top: 100%;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+}
+.aud_slider_content h2{
+    font-size: 40px;
+    padding-bottom: 0;
+    margin: 30px 0;
+}
+.aud_slider_content h4, .aud_slider_content p{
+    display: none;
+}
+.aud_registration_form{
+   margin-bottom:30px;
+}
+}
+@media (min-width: 480px) and (max-width: 767px) {} 
+
+@media (max-width: 479px) {
+
+.aud_mainslider_box h1 {
+    font-size: 33px;
+}
+.aud_mainslider_box h3 {
+    font-size: 20px;
+}
+.aud_mainslider_box form {
+    width: 100%;
+}
+
+.schedule_date strong {
+    font-size: 30px;
+    line-height: 30px;
+}
+.schedule_date span.month {
+    font-size: 18px;
+    line-height: 20px;
+}
+.aud_contact_info {
+    padding: 20px;
+}
+.event_details{
+    min-height: 170px;
+}
+.aud_sliderdata, .aud_sliderdata img{
+    min-height: 200px;
+}
+.aud_slider_content h2 {
+    font-size: 18px;
+}
+
+}
+
+@media (max-width: 440px) {}
+
+@media (max-width: 380px) {}
+
+@media (max-width: 320px) {}
+
+@media (max-width: 240px) {}
+
+
+/***********************************************************************************
+ Responsive Css End
+***********************************************************************************/

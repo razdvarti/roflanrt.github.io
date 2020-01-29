@@ -1,0 +1,1896 @@
+/*
+Copyright (c) 2017
+------------------------------------------------------------------
+[Master Stylesheet]
+
+Template Name: EventWings Responsive HTML Template
+Version: 1.0.0
+-------------------------------------------------------------------
+
+[Table of contents]
+
+1 - Body / body
+2- Typography css
+  2.1 - Loader Css Start / #preloader
+  2.2 - Padder Top - Bottom / .aud_toppadder10
+  2.3 - Main Heading Css Start / .aud_mainheading 
+  2.4 - Main Button Css Start / .aud_main_btn 
+3 - Header Css Start / .aud_header_wrapper 
+4 - Main Slider Css Start / .aud_homesection
+5 - About Us Css Start / .aud_fullwidth
+6 - Event Section Css Start / .aud_our_events
+7 - Schedule Wrapper Css Start / .aud_schedule_wrapper
+8 - Upcoming Events Css Start / .aud_upevent
+9 - Success stories Css Start / .aud_success_stories
+10 - Our Sponsor Section Css Start / .aud_sponser_wrapper
+11 - Contact Section Css Start / .aud_contact_wrapper
+12 - Popoup Section Css Start / .aud_registration_popup .popup_header
+13 - Event Single Wrapper Css Start / .aud_event_single_wrapper
+14 - Sidebar Wrapper Start / .pf_sidebar_wrapper
+*/
+
+/***********************************************************************************
+ 1 - Body Css Start
+***********************************************************************************/
+body {
+  font-size: 16px;
+  font-weight: normal;
+  color: #333;
+  line-height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+input,input: hover;
+input:focus,
+button,
+button:hover,
+button:focus {
+  box-shadow: none;
+  outline: none;
+}
+/***********************************************************************************
+ 1 - Body Css End
+***********************************************************************************/
+/***********************************************************************************
+ 2 - Typography Css Start
+***********************************************************************************/
+/***********************************************************************************
+ 2.1 - Loader Css Start
+***********************************************************************************/
+#preloader {
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 2147483647;
+  width: 100%;
+  height: 100%;
+}
+#status {
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+#status img {
+  width: 100%;
+  height: 100%;
+}
+/***********************************************************************************
+ 2.1 - Loader Css Start
+***********************************************************************************/
+/***********************************************************************************
+ 2.2 - Padder Top - Bottom Css Start
+***********************************************************************************/
+.aud_toppadder10 {
+  padding-top: 10px;
+}
+.aud_toppadder20 {
+  padding-top: 20px;
+}
+.aud_toppadder30 {
+  padding-top: 30px;
+}
+.aud_toppadder40 {
+  padding-top: 40px;
+}
+.aud_toppadder50 {
+  padding-top: 50px;
+}
+.aud_toppadder60 {
+  padding-top: 60px;
+}
+.aud_toppadder70 {
+  padding-top: 70px;
+}
+.aud_toppadder80 {
+  padding-top: 80px;
+}
+.aud_toppadder90 {
+  padding-top: 90px;
+}
+.aud_toppadder100 {
+  padding-top: 100px;
+}
+.aud_bottompadder10 {
+  padding-bottom: 10px;
+}
+.aud_bottompadder20 {
+  padding-bottom: 20px;
+}
+.aud_bottompadder30 {
+  padding-bottom: 30px;
+}
+.aud_bottompadder40 {
+  padding-bottom: 40px;
+}
+.aud_bottompadder50 {
+  padding-bottom: 50px;
+}
+.aud_bottompadder60 {
+  padding-bottom: 60px;
+}
+.aud_bottompadder70 {
+  padding-bottom: 70px;
+}
+.aud_bottompadder80 {
+  padding-bottom: 80px;
+}
+.aud_bottompadder90 {
+  padding-bottom: 90px;
+}
+.aud_bottompadder100 {
+  padding-bottom: 100px;
+}
+/***********************************************************************************
+ 2.2 - Padder Top - Bottom Css End
+***********************************************************************************/
+/***********************************************************************************
+ 2.3 - Main Heading Css Start
+***********************************************************************************/
+.aud_mainheading {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.aud_mainheading h1 {
+  display: inline-block;
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 40px;
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+.aud_mainheading h1:after {
+  position: absolute;
+  content: '';
+  width: 100px;
+  height: 3px;
+  background: #333;
+  bottom: 0;
+  left: 50%;
+  border-radius: 3px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aud_mainheading h1:hover:after {
+  width: 120px;
+  background: #fe0000;
+}
+.aud_mainheading h1:before {
+  position: absolute;
+  content: '';
+  width: 34px;
+  height: 3px;
+  background: #fe0000;
+  bottom: 0;
+  left: 50%;
+  z-index: 20;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aud_mainheading h1:hover:before {
+  width: 40px;
+  background: #333;
+}
+.aud_schedule_wrapper .aud_mainheading h1:after {
+  background: #fff;
+}
+.aud_schedule_wrapper .aud_mainheading h1:hover:after {
+  background: #fe0000;
+}
+.aud_schedule_wrapper .aud_mainheading h1:hover:before {
+  background: #fff;
+}
+.aud_upevent .aud_mainheading h1:after {
+  background: #fff;
+}
+.aud_upevent .aud_mainheading h1:hover:after {
+  background: #333;
+}
+.aud_upevent .aud_mainheading h1:before {
+  background: #333;
+}
+.aud_upevent .aud_mainheading h1:hover:before {
+  background: #fff;
+}
+.aud_success_stories .aud_mainheading h1:after {
+  background: #fff;
+}
+.aud_success_stories .aud_mainheading h1:hover:after {
+  background: #fe0000;
+}
+.aud_success_stories .aud_mainheading h1:hover:before {
+  background: #fff;
+}
+.aud_contact_wrapper .aud_mainheading h1:after {
+  background: #fff;
+}
+.aud_contact_wrapper .aud_mainheading h1:hover:after {
+  background: #fe0000;
+}
+.aud_contact_wrapper .aud_mainheading h1:hover:before {
+  background: #fff;
+}
+@charset "utf-8";
+.charWrap {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+.funnyText span.bottom,
+.funnyText span.left,
+.funnyText span.right,
+.funnyText span.top {
+  position: absolute;
+}
+.funnyText .charWrap {
+  transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  -o-transition: all 0.4s ease-in-out 0s;
+}
+.funnyText .charWrap .top {
+  top: 0;
+}
+.funnyText .charWrap .left {
+  left: 0;
+}
+.funnyText .charWrap .right {
+  right: 0;
+}
+.funnyText .charWrap .bottom {
+  bottom: 0;
+}
+.funnyText .character {
+  display: inline-block;
+  overflow: hidden;
+}
+.text1.funnyText span.active {
+  text-shadow: none !important;
+}
+/***********************************************************************************
+ 2.3 - Main Heading Css End
+***********************************************************************************/
+/***********************************************************************************
+ 2.4 - Main Button Css Start
+***********************************************************************************/
+.aud_main_btn {
+  height: 38px;
+  line-height: 38px;
+  color: #ffffff;
+  background-color: #212121;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 0 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.aud_main_btn:hover,
+.aud_main_btn:focus {
+  background-color: #fe0000;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/***********************************************************************************
+ 2.4 - Main Button Css End
+***********************************************************************************/
+/***********************************************************************************
+ 2 - Typography Css End
+***********************************************************************************/
+/***********************************************************************************
+ 3 - Header Css Start
+***********************************************************************************/
+.aud_header_wrapper {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.81);
+  padding: 11px 0px;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+  -ms-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+  -o-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+  z-index: 100;
+}
+.aud_logo {
+  width: 100%;
+  float: left;
+  width: 100%;
+  height: auto;
+  line-height: 0;
+}
+.aud_logo a {
+  display: inline-block;
+}
+.aud_menu {
+  float: right;
+  width: auto;
+  margin-top: 15px;
+}
+.aud_menu ul.nav {
+  float: right;
+  width: auto;
+}
+.aud_menu ul.nav li {
+  padding: 0px 0px 0px 30px;
+}
+.aud_menu ul.nav li:first-child {
+  padding: 0px 0px 0px 0px;
+}
+.aud_menu ul.nav a {
+  padding: 0;
+  padding-bottom: 7px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 18px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.aud_menu ul.nav a:after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 2px;
+  background: #fe0000;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aud_menu ul.nav a:hover,
+.aud_menu ul.nav > li > a.active {
+  background: transparent;
+  color: #fe0000;
+}
+.aud_menu ul.nav a:focus {
+  background: transparent;
+}
+.aud_menu ul.nav a:hover:after,
+.aud_menu ul.nav a.active:after {
+  width: 30px;
+}
+/***********************************************************************************
+ 3 - Header Css End
+***********************************************************************************/
+/***********************************************************************************
+ 4 - Main Slider Css Start
+***********************************************************************************/
+.aud_homesection {
+  float: left;
+  width: 100%;
+}
+.aud_mainslider {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.aud_mainslider .item-video {
+  height: 600px;
+}
+.aud_mainslider_box {
+  float: left;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+}
+.aud_mainslider_box h1 {
+  float: left;
+  width: 100%;
+  text-transform: uppercase;
+  margin-top: 0px;
+  font-size: 55px;
+  font-weight: bold;
+}
+.aud_mainslider_box h3 {
+  float: left;
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+.aud_mainslider_box p {
+  float: left;
+  width: 100%;
+  text-transform: capitalize;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.aud_breadcrumb_wrapper {
+  float: left;
+  width: 100%;
+  text-align: center;
+  background-image: url(.);
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+.aud_pagetitle {
+  float: left;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+.aud_pagetitle h2 {
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.aud_breadcrumb_wrapper ul.aud_breadcrumb {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  z-index: 10;
+}
+.aud_breadcrumb_wrapper ul.aud_breadcrumb li {
+  list-style: none;
+  float: left;
+  width: auto;
+  padding-right: 20px;
+  text-transform: capitalize;
+  color: #fe0000;
+  position: relative;
+}
+.aud_breadcrumb_wrapper ul.aud_breadcrumb li:last-child {
+  padding-right: 0px;
+}
+.aud_breadcrumb_wrapper ul.aud_breadcrumb li:last-child:after {
+  display: none;
+}
+.aud_breadcrumb_wrapper ul.aud_breadcrumb li:after {
+  content: '|';
+  position: absolute;
+  right: 8px;
+  top: -1px;
+  color: #fff;
+}
+.aud_breadcrumb_wrapper ul.aud_breadcrumb li a {
+  color: #fff;
+}
+.aud_mainslider_overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.aud_sliderdata {
+  float: left;
+  width: 100%;
+}
+.aud_slider_content {
+  position: absolute;
+  z-index: 15;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.aud_slidercontent_inner {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  left: 0;
+}
+.aud_slider_content h2 {
+  float: left;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.aud_slider_content h4 {
+  float: left;
+  width: 100%;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+.aud_slider_content p {
+  float: left;
+  width: 100%;
+  margin: 0;
+}
+/***********************************************************************************
+ 4 - Main Slider Css End
+***********************************************************************************/
+/***********************************************************************************
+ 5 - About Us Css Start
+***********************************************************************************/
+.aud_fullwidth {
+  float: left;
+  width: 100%;
+  background-image: url('../images/image--005.jpg');
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.aud_fullwidth:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+}
+.aud_orange_overlay {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background: #fe0000;
+  left: auto;
+  right: 0;
+  z-index: 1;
+  top: 0;
+}
+.aud_fullwidth_inner {
+  float: left;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.aud_fullwidth_inner h1 {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  width: auto;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.aud_fullwidth_inner h1:after {
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 2px;
+  background: #fff;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aud_fullwidth_inner h1:hover:after {
+  width: 50px;
+}
+.aud_fullwidth_inner span {
+  float: left;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  line-height: 36px;
+}
+.aud_fullwidth_inner p {
+  float: left;
+  width: 100%;
+  color: #fff;
+  line-height: 25px;
+}
+/***********************************************************************************
+ 5 - About Us Css End
+***********************************************************************************/
+/***********************************************************************************
+ 6 - Event Section Css Start
+***********************************************************************************/
+.aud_our_events {
+  float: left;
+  width: 100%;
+}
+.aud_mainheading {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.aud_event_inner {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 0px 20px 20px 20px;
+  border: 3px solid #333;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aud_event_outer {
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+.aud_event_inner h2.event_subheading {
+  width: 100%;
+  float: left;
+  margin: 0px;
+  padding: 20px 0px 15px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aud_event_inner p {
+  width: 100%;
+  float: left;
+  margin: 0px;
+}
+.event_icon {
+  margin-top: -35px;
+  display: block;
+}
+.event_icon i {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background-color: #fe0000;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.event_icon i.flaticon:before {
+  font-size: 30px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aud_event_inner:hover .event_icon i {
+  background: #333;
+  border-radius: 100%;
+}
+.aud_event_inner:hover {
+  border-color: #fe0000;
+}
+.aud_event_inner:hover h2 {
+  color: #fe0000;
+}
+/***********************************************************************************
+ 6 - Event Section Css End
+***********************************************************************************/
+/***********************************************************************************
+ 7 - Schedule Wrapper Css Start
+***********************************************************************************/
+.aud_schedule_wrapper {
+  width: 100%;
+  float: left;
+  background-image: url('../images/image--028.jpg');
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+.aud_schedule_overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.aud_schedule_wrapper .aud_mainheading {
+  position: relative;
+  z-index: 1;
+}
+.aud_event_dates {
+  width: 100%;
+  float: left;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.aud_event_dates ul {
+  width: auto;
+  padding: 6px 6px 0px 6px;
+  border: 1px solid #ebebeb;
+  background-color: #f8f7f7;
+  margin-bottom: 50px;
+  list-style: none;
+  display: inline-block;
+}
+.aud_event_dates ul li {
+  overflow: hidden;
+  display: inline-block;
+  background: #fff;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+.aud_event_dates ul li.event_active {
+  background-color: #fe0000;
+  color: #fff;
+}
+.aud_event_dates ul li.event_active a {
+  color: #fff;
+}
+.aud_event_dates ul li a {
+  display: inline-block;
+  padding: 15px 30px;
+  color: #333;
+}
+.aud_event_dates ul li.event_active a strong {
+  color: #fff;
+}
+.aud_event_dates ul li a strong {
+  float: left;
+  display: block;
+  font-size: 38px;
+  line-height: 43px;
+  color: #fe0000;
+  width: 25%;
+  margin-right: 10px;
+}
+.aud_event_dates ul li a .day {
+  text-align: left;
+  line-height: 18px;
+  float: left;
+}
+.aud_event_dates ul li a span.month {
+  float: left;
+}
+.aud_event_schedule {
+  width: 100%;
+  float: left;
+  position: relative;
+  z-index: 1;
+  margin-top: 50px;
+}
+.aud_event_schedule ul {
+  width: 100%;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.aud_event_schedule ul li {
+  width: 100%;
+  float: left;
+  padding: 10px;
+}
+.schedule_date {
+  width: 150px;
+  float: left;
+  text-align: center;
+  background-color: #333;
+  padding: 5px 0px;
+  color: #fff;
+  border-radius: 3px 0px 0px 3px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.schedule_date strong {
+  width: 100%;
+  float: left;
+  font-size: 70px;
+  margin-bottom: 0;
+  line-height: 60px;
+}
+.schedule_date span.month {
+  width: 100%;
+  float: left;
+  font-size: 25px;
+}
+.event_details {
+  float: left;
+  width: calc(100% - 150px);
+  padding: 13px 0px 13px 40px;
+  background: #f4f4f4;
+  position: relative;
+  border-radius: 0px 3px 3px 0px;
+}
+.event_details h3 {
+  width: 100%;
+  margin: 0;
+  float: left;
+  color: #fe0000;
+  font-weight: bold;
+  text-shadow: none;
+  text-transform: capitalize;
+  font-size: 40px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.event_sponsord {
+  width: 100%;
+  float: left;
+  color: #333;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.event_sponsord span {
+  font-weight: normal;
+}
+.aud_event_schedule ul li:hover .schedule_date {
+  background: #fe0000;
+}
+.aud_event_schedule ul li:hover .event_details h3 {
+  color: #333;
+}
+.aud_event_schedule ul li:hover .event_sponsord {
+  color: #fe0000;
+}
+.aud_event_schedule ul li:hover .event_sponsord span {
+  color: #333;
+}
+.aud_button {
+  position: absolute;
+  bottom: 6px;
+  right: -1px;
+}
+.aud_button .aud_link {
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  background: #333;
+  padding: 11px 15px;
+  line-height: 20px;
+  color: #fff;
+  text-transform: capitalize;
+  position: relative;
+  border-radius: 3px 0px 2px 0px;
+}
+.aud_button .aud_link span {
+  margin-right: 10px;
+}
+.aud_event_schedule ul li:hover .aud_button .aud_link {
+  background: #fe0000;
+  border-radius: 3px 0px 3px 0px;
+}
+/***********************************************************************************
+ 7 - Schedule Wrapper Css End
+***********************************************************************************/
+/***********************************************************************************
+ 8 - Upcoming Events Css Start
+***********************************************************************************/
+.aud_upevent {
+  float: left;
+  width: 100%;
+  background: #fe0000;
+}
+.aud_upcomingevent {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+  border: 1px solid #fe0000;
+  background: #fff;
+  border-radius: 3px;
+}
+.aud_uc_img {
+  float: left;
+  width: 100%;
+}
+.aud_uc_img img {
+  border-radius: 3px 0px 0px 3px;
+}
+.aud_uc_content {
+  float: left;
+  width: 100%;
+  padding: 10px 10px 0px 0px;
+  position: relative;
+  min-height: 265px;
+}
+.aud_uc_content h2 {
+  float: left;
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.aud_uc_content h2:after {
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 2px;
+  background: #333;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aud_uc_content p {
+  float: left;
+  width: 100%;
+  line-height: 25px;
+}
+.aud_uc_content p a {
+  color: #fe0000;
+}
+.aud_uc_content p.aud_eventdate {
+  font-weight: 600;
+  color: #fe0000;
+  margin: 0px;
+}
+.aud_event_date_counter {
+  float: left;
+  width: 100%;
+}
+.aud_event_date_counter .aud_counter > span {
+  display: inline-block;
+  text-align: center;
+  margin-right: 3px;
+  width: 33px;
+}
+.aud_event_date_counter .aud_counter > span p {
+  font-size: 16px;
+}
+.aud_event_date_counter .aud_counter > span p:first-child {
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #fe0000;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  float: none;
+  background: #fe0000;
+  margin: 0;
+  font-weight: 600;
+  border-radius: 3px;
+}
+.aud_event_date_counter .aud_counter > span p:last-child {
+  text-transform: capitalize;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+}
+.aud_counter {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+}
+.aud_btn {
+  position: absolute;
+  right: 0;
+  font-size: 13px;
+  bottom: 0;
+  padding: 10px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  background: #333;
+  padding: 5px 10px;
+  line-height: 20px;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 3px 0px 2px 0px;
+  border: 1px solid transparent;
+}
+.aud_btn:hover,
+.aud_btn:focus {
+  background: #fe0000;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px 0px 3px 0px;
+}
+.aud_upevent .carousel-indicators {
+  bottom: -40px;
+}
+.aud_upevent .carousel-indicators .active {
+  background-color: #fff;
+  border-color: #fff;
+}
+.aud_upevent .carousel-indicators li {
+  border: 1px solid #fff;
+}
+/***********************************************************************************
+ 8 - Upcoming Events Css End
+***********************************************************************************/
+/***********************************************************************************
+ 9 - Success stories Css Start
+***********************************************************************************/
+.aud_success_stories {
+  width: 100%;
+  float: left;
+  background-image: url('../images/image--000.jpg');
+  background-size: cover;
+  position: relative;
+  color: #ffffff;
+  background-attachment: fixed;
+}
+.aud_success_overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.aud_success_slider {
+  float: left;
+  width: 100%;
+}
+#success_slider {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#success_slider .owl-nav {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+#success_slider .owl-prev,
+#success_slider .owl-next {
+  float: left;
+  width: auto;
+  margin-right: 10px;
+  margin-left: 0px;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  padding: 0px 10px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#success_slider .owl-next {
+  margin-left: 10px;
+  margin-right: 0px;
+}
+#success_slider .owl-prev:hover,
+#success_slider .owl-next:hover {
+  background-color: #fe0000;
+  border: 1px solid #fe0000;
+}
+.aud_success_stories_box {
+  float: left;
+  width: 100%;
+}
+.aud_success_stories_img {
+  float: left;
+  width: 250px;
+  text-align: center;
+  padding-top: 10px;
+}
+.aud_success_stories_img img {
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+.aud_success_stories_img h4 {
+  float: left;
+  width: 100%;
+  text-transform: uppercase;
+  margin: 10px 0px 0px 0px;
+  font-weight: 600;
+}
+.aud_success_stories_img p {
+  float: left;
+  width: 100%;
+  margin: 0px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.aud_success_stories_info {
+  float: left;
+  width: calc(100% - 250px);
+  padding-left: 100px;
+  line-height: 25px;
+}
+.aud_success_stories_info h4 {
+  float: left;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+}
+.aud_success_stories_info h4 span {
+  position: absolute;
+  top: 4px;
+  left: -60px;
+  border: 1px solid #ffffff;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 3px;
+  color: #fe0000;
+  background-color: #ffffff;
+}
+.aud_success_stories_info p {
+  float: left;
+  width: 100%;
+}
+/***********************************************************************************
+ 9 - Success stories Css End
+***********************************************************************************/
+/***********************************************************************************
+ 10 - Our Sponsor Section Css Start
+***********************************************************************************/
+.aud_sponser_wrapper {
+  float: left;
+  width: 100%;
+  background-image: url('../images/tyre-tracks-png.png');
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+.aud_sponser_slider {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.aud_sponser_slider .item img {
+  width: auto;
+  display: inline;
+}
+/***********************************************************************************
+ 10 - Our Sponsor Section Css Start
+***********************************************************************************/
+/***********************************************************************************
+ 11 - Contact Section Css Start
+***********************************************************************************/
+.aud_contact_wrapper {
+  width: 100%;
+  float: left;
+  background-image: url('');
+  background-size: cover;
+  position: relative;
+  color: #ffffff;
+  background-attachment: fixed;
+}
+.aud_contact_overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.aud_contact_form {
+  float: left;
+  width: 100%;
+}
+.aud_contact_form label {
+  float: left;
+  width: 100%;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.aud_contact_form label sup {
+  color: #bd362f;
+  font-size: 20px;
+  top: 0px;
+}
+.aud_contact_form input[type='text'] {
+  height: 40px;
+}
+.aud_contact_form input[type='text'],
+.aud_contact_form textarea {
+  float: left;
+  width: 100%;
+  padding: 0px 10px;
+  border: 1px solid #ddd;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  color: #212121;
+  border-radius: 3px;
+  resize: none;
+}
+.aud_contact_form input[type='text']:focus,
+.aud_contact_form textarea:focus {
+  outline: none;
+}
+.aud_contact_form .aud_main_btn {
+  margin-top: 15px;
+}
+.aud_contact_info {
+  float: left;
+  width: 100%;
+  background-color: #222222;
+  padding: 40px;
+  border-radius: 3px;
+}
+.aud_contact_info h3 {
+  float: left;
+  width: 100%;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+.aud_contact_info h3:after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-bottom: 2px solid #ffffff;
+  width: 100px;
+}
+.aud_contact_info p {
+  float: left;
+  width: 100%;
+  position: relative;
+  padding-left: 40px;
+}
+.aud_contact_info p i {
+  position: absolute;
+  font-size: 18px;
+  top: 8px;
+  left: 0px;
+}
+.aud_contact_info p a {
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aud_contact_info p a:hover {
+  color: #fe0000;
+}
+.aud_footer_wrapper {
+  float: left;
+  width: 100%;
+  text-align: center;
+  background-color: #222222;
+  position: relative;
+}
+.aud_copyright {
+  float: left;
+  width: 100%;
+}
+.aud_copyright p {
+  float: left;
+  width: 100%;
+  margin: 0px;
+}
+.aud_copyright p a {
+  color: #fe0000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.aud_footer_links {
+  float: left;
+  width: 100%;
+}
+.aud_footer_links ul {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+.aud_footer_links ul li {
+  list-style: none;
+  float: left;
+  margin: 0px 10px;
+}
+.aud_footer_links ul li a {
+  float: left;
+  width: 30px;
+  height: 30px;
+  line-height: 29px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aud_footer_links ul li a:hover {
+  background-color: #fe0000;
+  border: 1px solid #fe0000;
+  border-radius: 100%;
+}
+/***********************************************************************************
+ 11 - Contact Section Css End
+***********************************************************************************/
+/***********************************************************************************
+ 12 - Popoup Section Css Start
+***********************************************************************************/
+.aud_registration_popup .popup_header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+.aud_registration_popup .title {
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-top: 0px;
+  color: #fe0000;
+  font-weight: 600;
+}
+.aud_registration_popup .subtitle {
+  text-transform: capitalize;
+  font-size: 14px;
+  margin: 0px;
+  line-height: 20px;
+}
+.aud_registration_popup .popup_header .close {
+  color: #000000;
+  text-shadow: 0 0 0;
+  opacity: 1;
+  filter: alpha(opacity=20);
+  margin: 0;
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding: 0px 6px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aud_registration_popup .popup_header .close:hover,
+.aud_registration_popup .popup_header .close:focus {
+  background-color: #fe0000;
+  border: 1px solid #fe0000;
+  color: #fff;
+  outline: none;
+}
+.aud_registration_popup .popup_body label {
+  width: 100%;
+  text-transform: capitalize;
+  margin: 0px;
+  font-weight: 500;
+}
+.aud_registration_popup .popup_body input[type='text'],
+.aud_registration_popup .popup_body select,
+.aud_registration_popup .popup_body textarea {
+  width: 100%;
+  line-height: 30px;
+  padding: 0px 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  resize: vertical;
+}
+.aud_registration_popup .popup_body input[type='text'],
+.aud_registration_popup .popup_body select {
+  height: 35px;
+}
+.aud_registration_popup .popup_body select {
+  text-transform: capitalize;
+}
+.aud_registration_popup .popup_body input[type='text']:focus,
+.aud_registration_popup .popup_body select:focus,
+.aud_registration_popup .popup_body textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #fe0000;
+}
+.aud_registration_popup .popup_footer {
+  text-align: right;
+}
+/* Styles for dialog window */
+#small-dialog {
+  background: white;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 500px;
+  margin: 40px auto;
+  position: relative;
+  border-radius: 3px;
+}
+/*** Fade-zoom animation for first dialog */
+/* start state */
+.my-mfp-zoom-in .zoom-anim-dialog {
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+}
+/* animate in */
+.my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+/* animate out */
+.my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0;
+}
+/* Dark overlay, start state */
+.my-mfp-zoom-in.mfp-bg {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+/* animate in */
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+/* animate out */
+.my-mfp-zoom-in.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+/*** Fade-move animation for second dialog */
+/* at start */
+.my-mfp-slide-bottom .zoom-anim-dialog {
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  -webkit-transform: translateY(-20px) perspective(600px) rotateX(10deg);
+  -moz-transform: translateY(-20px) perspective(600px) rotateX(10deg);
+  -ms-transform: translateY(-20px) perspective(600px) rotateX(10deg);
+  -o-transform: translateY(-20px) perspective(600px) rotateX(10deg);
+  transform: translateY(-20px) perspective(600px) rotateX(10deg);
+}
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog {
+  opacity: 1;
+  -webkit-transform: translateY(0) perspective(600px) rotateX(0);
+  -moz-transform: translateY(0) perspective(600px) rotateX(0);
+  -ms-transform: translateY(0) perspective(600px) rotateX(0);
+  -o-transform: translateY(0) perspective(600px) rotateX(0);
+  transform: translateY(0) perspective(600px) rotateX(0);
+}
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog {
+  opacity: 0;
+  -webkit-transform: translateY(-10px) perspective(600px) rotateX(10deg);
+  -moz-transform: translateY(-10px) perspective(600px) rotateX(10deg);
+  -ms-transform: translateY(-10px) perspective(600px) rotateX(10deg);
+  -o-transform: translateY(-10px) perspective(600px) rotateX(10deg);
+  transform: translateY(-10px) perspective(600px) rotateX(10deg);
+}
+/* Dark overlay, start state */
+.my-mfp-slide-bottom.mfp-bg {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+/***********************************************************************************
+ 12 - Popoup Section Css End
+***********************************************************************************/
+/***********************************************************************************
+ 13 - Event Single Wrapper Css Start
+***********************************************************************************/
+.aud_event_single_wrapper {
+  float: left;
+  width: 100%;
+}
+.aud_event_single_box {
+  float: left;
+  width: 100%;
+}
+.aud_event_single_box img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.aud_event_single_box h2 {
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+.aud_event_single_box ul {
+  float: left;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+.aud_event_single_box ul li {
+  list-style: none;
+  float: left;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+.aud_event_single_box ul li:last-child {
+  margin-right: 0px;
+}
+.aud_event_single_box ul li i {
+  color: #fe0000;
+  margin-right: 5px;
+}
+.aud_registration_form {
+  float: left;
+  width: 100%;
+}
+.aud_registration_form h2 {
+  float: left;
+  width: 100%;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.aud_registration_form h2:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  background-color: #333;
+  width: 80px;
+  height: 2px;
+}
+.aud_registration_form label {
+  float: left;
+  width: 100%;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.aud_registration_form label sup {
+  color: #bd362f;
+  font-size: 20px;
+  top: 0px;
+}
+.aud_registration_form input[type='text'],
+.aud_registration_form select {
+  height: 40px;
+}
+.aud_registration_form select {
+  text-transform: capitalize;
+}
+.aud_registration_form input[type='text'],
+.aud_registration_form select,
+.aud_registration_form textarea {
+  float: left;
+  width: 100%;
+  padding: 0px 10px;
+  border: 1px solid #ddd;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  color: #212121;
+  border-radius: 3px;
+  resize: none;
+}
+.aud_registration_form input[type='text']:focus,
+.aud_registration_form textarea:focus,
+.aud_registration_form select:focus {
+  outline: none;
+}
+.aud_registration_form .aud_main_btn {
+  margin-top: 15px;
+}
+/***********************************************************************************
+ 13 - Event Single Wrapper Css End
+***********************************************************************************/
+/***********************************************************************************
+ 14 - Sidebar Wrapper Start
+***********************************************************************************/
+.pf_sidebar_wrapper {
+  float: left;
+  width: 100%;
+}
+.widget-title {
+  float: left;
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: #fe0000;
+  color: #fff;
+  border-radius: 3px;
+}
+.widget.widget_search {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+}
+.widget.widget_search input[type='text'] {
+  width: 100%;
+  height: 35px;
+  padding: 0px 40px 0px 10px;
+  border: 1px solid #ddd;
+  box-shadow: none;
+  text-shadow: none;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.widget.widget_search input[type='text']:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #fe0000;
+}
+.widget.widget_search button {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  border: none;
+  background-color: #fe0000;
+  box-shadow: none;
+  padding: 0px 10px;
+  color: #fff;
+  border-radius: 0px 3px 3px 0px;
+}
+.widget.widget_search button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.widget.widget_categories {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.widget.widget_categories ul {
+  float: left;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.widget.widget_categories ul li {
+  list-style: none;
+  float: left;
+  width: 100%;
+}
+.widget.widget_categories ul li a {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  color: #333;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.widget.widget_categories ul li:first-child a {
+  padding-top: 10px;
+}
+.widget.widget_categories ul li a:hover {
+  color: #fe0000;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.widget.widget_archive {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.widget.widget_archive ul {
+  float: left;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.widget.widget_archive ul li {
+  list-style: none;
+  float: left;
+  width: 100%;
+}
+.widget.widget_archive ul li a {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  color: #333;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.widget.widget_archive ul li:first-child a {
+  padding-top: 10px;
+}
+.widget.widget_archive ul li a:hover {
+  color: #fe0000;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.widget.widget_tag_cloud {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.widget.widget_tag_cloud ul {
+  float: left;
+  width: 100%;
+  margin: 0px;
+  margin-top: 20px;
+  padding: 0px;
+}
+.widget.widget_tag_cloud ul li {
+  list-style: none;
+  float: left;
+  width: auto;
+  margin: 0px 6px 6px 0px;
+}
+.widget.widget_tag_cloud a {
+  float: left;
+  padding: 5px 8px;
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.widget.widget_tag_cloud a:hover {
+  border: 1px solid #fe0000;
+  color: #fe0000;
+  background-color: #fff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/***********************************************************************************
+ 14 - Sidebar Wrapper End
+***********************************************************************************/
